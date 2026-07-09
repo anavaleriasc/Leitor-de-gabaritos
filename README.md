@@ -1,4 +1,4 @@
-# 📄 Answer Sheet Reader — Leitor Automático de Cartão-Resposta
+# Leitor Automático de Cartão-Resposta
 
 Sistema de leitura automática de cartões-resposta desenvolvido em Python utilizando **exclusivamente técnicas clássicas de Processamento Digital de Imagens (PDI)** com OpenCV e NumPy.
 
