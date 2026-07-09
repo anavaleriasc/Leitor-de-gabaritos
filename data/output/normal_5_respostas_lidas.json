@@ -1,0 +1,145 @@
+{
+  "total_questoes": 10,
+  "questoes": [
+    {
+      "questao": 1,
+      "resposta": "B",
+      "confianca": 0.9968,
+      "em_branco": false,
+      "ambigua": false,
+      "preenchimento": {
+        "A": 0.0616,
+        "B": 0.9968,
+        "C": 0.0016,
+        "D": 0.0,
+        "E": 0.3112
+      }
+    },
+    {
+      "questao": 2,
+      "resposta": "D",
+      "confianca": 0.9968,
+      "em_branco": false,
+      "ambigua": false,
+      "preenchimento": {
+        "A": 0.1359,
+        "B": 0.0063,
+        "C": 0.0016,
+        "D": 0.9968,
+        "E": 0.3128
+      }
+    },
+    {
+      "questao": 3,
+      "resposta": "D",
+      "confianca": 1.0,
+      "em_branco": false,
+      "ambigua": false,
+      "preenchimento": {
+        "A": 0.1248,
+        "B": 0.1706,
+        "C": 0.0,
+        "D": 1.0,
+        "E": 0.1754
+      }
+    },
+    {
+      "questao": 4,
+      "resposta": "C",
+      "confianca": 0.9731,
+      "em_branco": false,
+      "ambigua": false,
+      "preenchimento": {
+        "A": 0.0521,
+        "B": 0.0095,
+        "C": 0.9731,
+        "D": 0.0,
+        "E": 0.2796
+      }
+    },
+    {
+      "questao": 5,
+      "resposta": "A",
+      "confianca": 1.0,
+      "em_branco": false,
+      "ambigua": false,
+      "preenchimento": {
+        "A": 1.0,
+        "B": 0.0063,
+        "C": 0.0,
+        "D": 0.0711,
+        "E": 0.0442
+      }
+    },
+    {
+      "questao": 6,
+      "resposta": "E",
+      "confianca": 1.0,
+      "em_branco": false,
+      "ambigua": false,
+      "preenchimento": {
+        "A": 0.0,
+        "B": 0.0237,
+        "C": 0.0174,
+        "D": 0.0,
+        "E": 1.0
+      }
+    },
+    {
+      "questao": 7,
+      "resposta": "B",
+      "confianca": 0.9953,
+      "em_branco": false,
+      "ambigua": false,
+      "preenchimento": {
+        "A": 0.0205,
+        "B": 0.9953,
+        "C": 0.0079,
+        "D": 0.0,
+        "E": 0.0047
+      }
+    },
+    {
+      "questao": 8,
+      "resposta": "B",
+      "confianca": 0.9842,
+      "em_branco": false,
+      "ambigua": false,
+      "preenchimento": {
+        "A": 0.0174,
+        "B": 0.9842,
+        "C": 0.0284,
+        "D": 0.0047,
+        "E": 0.0506
+      }
+    },
+    {
+      "questao": 9,
+      "resposta": "B",
+      "confianca": 1.0,
+      "em_branco": false,
+      "ambigua": false,
+      "preenchimento": {
+        "A": 0.0205,
+        "B": 1.0,
+        "C": 0.0,
+        "D": 0.0142,
+        "E": 0.0585
+      }
+    },
+    {
+      "questao": 10,
+      "resposta": "C",
+      "confianca": 0.9984,
+      "em_branco": false,
+      "ambigua": false,
+      "preenchimento": {
+        "A": 0.0774,
+        "B": 0.0,
+        "C": 0.9984,
+        "D": 0.0032,
+        "E": 0.0458
+      }
+    }
+  ]
+}

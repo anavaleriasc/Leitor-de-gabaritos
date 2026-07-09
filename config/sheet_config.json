@@ -1,0 +1,27 @@
+{
+    "warped_width": 1000,
+    "warped_height": 1400,
+    "bubble_radius": 45,
+    "inner_mask_radius": 33,
+    "min_fill_ratio": 0.50,
+    "min_ink_ratio": 0.35,
+    "x_positions": {
+        "A": 156,
+        "B": 318,
+        "C": 450,
+        "D": 580,
+        "E": 712
+    },
+    "y_positions": {
+        "1": 260,
+        "2": 369,
+        "3": 478,
+        "4": 587,
+        "5": 695,
+        "6": 804,
+        "7": 910,
+        "8": 1020,
+        "9": 1128,
+        "10": 1236
+    }
+}
