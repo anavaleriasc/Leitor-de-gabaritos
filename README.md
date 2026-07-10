@@ -29,6 +29,10 @@ Receber uma **foto** de um cartão-resposta preenchido e retornar qual alternati
 > **Nota sobre os Templates e Imagens:** 
 > As imagens `template.png`, `template_marcadores.png` e todas as fotos na pasta `data/input` são **apenas exemplos** para fins de teste. O sistema não utiliza essas imagens de template para fazer comparações matemáticas durante a leitura. O padrão de exemplo utilizado no repositório é de um **cartão-resposta de 10 questões, com 5 alternativas cada (A a E)**. O algoritmo é calibrado automaticamente com base na grade impressa.
 
+<p align="center">
+  <img src="data/input/template.png" width="400" alt="Cartão-Resposta Padrão">
+</p>
+
 ---
 
 ## Instalação
@@ -212,6 +216,31 @@ Caso a calibração automática falhe por problemas de impressão na foto, você
 | `07_threshold_warped.jpg` | Limiarização adaptativa da imagem corrigida | Etapa de binarização |
 | `08_bubbles_debug.jpg` | Bolhas analisadas com resultado visual por questão | Resultado final visual |
 
+### Exemplos Visuais do Pipeline
+
+Abaixo estão alguns exemplos das imagens geradas na pasta `data/debug/` durante o processamento de uma foto inclinada (`normal_5.jpg`):
+
+**1. Detecção do Contorno (05_contour_detected.jpg)**  
+*(O sistema detecta a folha mesmo em ângulos oblíquos)*
+<p align="center"><img src="data/debug/normal_5_05_contour_detected.jpg" width="400"></p>
+
+**2. Correção de Perspectiva (06_warped.jpg)**  
+*(Aplica-se a homografia para "desentortar" e chapar a folha)*
+<p align="center"><img src="data/debug/normal_5_06_warped.jpg" width="400"></p>
+
+**3. Análise Final das Bolhas (08_bubbles_debug.jpg)**  
+*(Bolhas detectadas matematicamente pelo threshold)*
+<p align="center"><img src="data/debug/normal_5_08_bubbles_debug.jpg" width="400"></p>
+
+### Legenda do `08_bubbles_debug.jpg`
+
+- 🟢 **Verde:** alternativa marcada e selecionada como resposta
+- 🟡 **Amarelo:** questão em branco (nenhuma bolha passou do limiar)
+- 🔴 **Vermelho:** questão ambígua (duas ou mais bolhas próximas do limiar)
+- ⚪ **Cinza:** bolha não marcada
+
+---
+
 ## Módulo de comparação com gabarito (opcional)
 
 O módulo `reader/grading.py` compara as respostas lidas com um gabarito oficial:
@@ -283,6 +312,10 @@ answer-sheet-reader/
 ---
 
 ## 🚀 Suporte a Gabarito com Marcadores (NOVO)
+
+<p align="center">
+  <img src="data/input/template_marcadores.png" width="400" alt="Cartão com Marcadores">
+</p>
 
 **A Motivação:**
 Algoritmos clássicos de Visão Computacional (como o detector de bordas *Canny*) não usam Inteligência Artificial para entender o que é um papel. Eles procuram por "degraus de luz" (Gradientes) na imagem. 
