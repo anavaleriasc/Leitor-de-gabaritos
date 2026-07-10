@@ -306,7 +306,8 @@ answer-sheet-reader/
 ## Suporte a Gabarito com Marcadores
 
 <p align="center">
-  <img src="data/input/template_marcadores.png" width="400" alt="Cartão com Marcadores">
+  <img src="data/input/template_marcadores.png" width="300" alt="Cartão com Marcadores">
+  <img src="data/debug/marcadores_claro_05_contour_detected.jpg" width="300" alt="Marcadores Detectados (Zoom)">
 </p>
 
 **A Motivação:**
