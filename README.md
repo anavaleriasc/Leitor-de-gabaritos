@@ -231,14 +231,6 @@ Abaixo estão alguns exemplos das imagens geradas na pasta `data/debug/` durante
 **3. Análise Final das Bolhas (08_bubbles_debug.jpg)**  
 *(Bolhas detectadas matematicamente pelo threshold)*
 <p align="center"><img src="data/debug/normal_5_08_bubbles_debug.jpg" width="400"></p>
-
-### Legenda do `08_bubbles_debug.jpg`
-
-- 🟢 **Verde:** alternativa marcada e selecionada como resposta
-- 🟡 **Amarelo:** questão em branco (nenhuma bolha passou do limiar)
-- 🔴 **Vermelho:** questão ambígua (duas ou mais bolhas próximas do limiar)
-- ⚪ **Cinza:** bolha não marcada
-
 ---
 
 ## Módulo de comparação com gabarito (opcional)
@@ -311,7 +303,7 @@ answer-sheet-reader/
 
 ---
 
-## 🚀 Suporte a Gabarito com Marcadores (NOVO)
+## Suporte a Gabarito com Marcadores
 
 <p align="center">
   <img src="data/input/template_marcadores.png" width="400" alt="Cartão com Marcadores">
