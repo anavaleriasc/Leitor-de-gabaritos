@@ -203,7 +203,7 @@ Caso a calibração automática falhe por problemas de impressão na foto, você
 
 ---
 
-## Imagens de debug para o relatório
+## Imagens de etapas intermediárias
 
 | Arquivo | Conteúdo | Uso no relatório |
 |---|---|---|
